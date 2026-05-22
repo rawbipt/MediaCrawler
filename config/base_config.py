@@ -18,7 +18,7 @@
 # 使用本代码即表示您同意遵守上述原则和LICENSE中的所有条款。
 
 # Basic configuration
-PLATFORM = "bili"  # Platform, xhs | dy | ks | bili | wb | tieba | zhihu
+PLATFORM = "dy"  # Platform, xhs | dy | ks | bili | wb | tieba | zhihu
 
 # 是否使用海外版小红书 (rednote.com)
 # 开启后 API 走 webapi.rednote.com，cookie 域使用 .rednote.com
@@ -101,7 +101,7 @@ CRAWLER_MAX_NOTES_COUNT = 15
 MAX_CONCURRENCY_NUM = 1
 
 # Whether to enable crawling media mode (including image or video resources), crawling media is not enabled by default
-ENABLE_GET_MEIDAS = False
+ENABLE_GET_MEIDAS = True
 
 # Whether to enable comment crawling mode. Comment crawling is enabled by default.
 ENABLE_GET_COMMENTS = True
